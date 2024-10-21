@@ -7,7 +7,7 @@
 
 
 
-<html  data-paige="Paige theme from https://github.com/willfaught/paige"   lang="en-us" >
+<html  data-paige="Paige theme from https://github.com/willfaught/paige"   lang="en" >
 
     
 
@@ -39,6 +39,8 @@
 
 
 
+    <meta content="Browse by category." name="description">
+
 
 
 
@@ -55,17 +57,19 @@
 <meta property="og:url" content="http://localhost:1313/categories/">
   <meta property="og:site_name" content="My New Hugo Site">
   <meta property="og:title" content="Categories">
-  <meta property="og:locale" content="en_us">
+  <meta property="og:description" content="Browse by category.">
+  <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Categories">
+  <meta name="twitter:description" content="Browse by category.">
 
 
 
     
-        <title>Categories · My New Hugo Site</title>
+        <title>Categories · Paige</title>
     
 
     
@@ -178,12 +182,12 @@
 
 
 
-    <link href="http://localhost:1313/categories/rss.xml" rel="alternate" type="application/rss+xml">
-
 
     
 
 <style>
+
+    
 
 
 .paige-figure-numbered {
@@ -505,9 +509,11 @@ table {
         
 
         
-            <div class="display-1 fw-bold  paige-row-wide text-center" id="paige-site-title">My New Hugo Site</div>
+            <div class="display-1 fw-bold  mb-2  paige-row-wide text-center" id="paige-site-title">My New Hugo Site</div>
         
 
+        
+            <div class="lead paige-row-wide text-center" id="paige-site-description">Seriously just hangin out no big deal</div>
         
 
         
@@ -516,7 +522,19 @@ table {
 
                 
                     
+                        
+                    
                 
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
                     
                 
 
@@ -532,7 +550,77 @@ table {
                             
 
                             <li class="nav-item">
-                                <a  class=" nav-link  text-decoration-underline " href="/" >My New Hugo Site</a>
+                                <a  class=" nav-link  text-decoration-underline " href="/authors/" >Authors</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  aria-current="page"  class=" active  fw-bold text-body-emphasis   nav-link  text-decoration-underline " href="/categories/" >Categories</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/customizations/" >Customizations</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/journals/" >Ideate Journals</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/" >Paige</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/series/" >Series</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/shortcodes/" >Shortcodes</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/tags/" >Tags</a>
                             </li>
                         
                     </ul>
@@ -540,24 +628,6 @@ table {
             
         
 
-        
-            <nav aria-label="Breadcrumbs" class="paige-row-wide" id="paige-breadcrumbs">
-                <div class="d-flex justify-content-center">
-                    <ol class="breadcrumb mb-0">
-                        
-
-                        
-
-                        
-                            
-
-                            
-
-                            <li class="breadcrumb-item"><a href="/">My New Hugo Site</a></li>
-                        
-                    </ol>
-                </div>
-            </nav>
         
 
         
@@ -628,6 +698,8 @@ table {
             
 
             
+                <p class="lead paige-row-wide" id="paige-page-description">Browse by category.</p>
+            
 
             
 
@@ -653,6 +725,10 @@ table {
 
 
 
+    
+
+    
+
 
 
 
@@ -661,77 +737,31 @@ table {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-
-    
-
-
-
-    
-
-
-
-    
-
-
-
-    
-
-
-
-    
-
-
-
-    
-
-
-
-    
-
-
-
-    
-
-
-
-    
-
-
-
-
+    <div id="paige-pages">
+        <ul class="list-inline text-center">
+            
+                <li class="list-inline-item">
+                    <a href="/categories/content/">Content</a>
+                </li>
+            
+                <li class="list-inline-item">
+                    <a href="/categories/customization/">Customization</a>
+                </li>
+            
+                <li class="list-inline-item">
+                    <a href="/categories/layouts/">Layouts</a>
+                </li>
+            
+                <li class="list-inline-item">
+                    <a href="/categories/paige/">Paige</a>
+                </li>
+            
+                <li class="list-inline-item">
+                    <a href="/categories/shortcodes/">Shortcodes</a>
+                </li>
+            
+        </ul>
+    </div>
 
 
                     
@@ -756,11 +786,11 @@ table {
         
 
         
-
+            <p class="paige-row-narrow text-center text-secondary" id="paige-copyright">© Will Faught</p>
         
 
         
-            <p class="paige-row-narrow text-center text-secondary" id="paige-credit">&lt;a class=&ldquo;link-secondary text-decoration-none&rdquo; href=&quot;{{ $theme }}&quot; {{ with $target }} target=&quot;{{ . }}&quot; {{ end }}&gt;Paige Theme<!-- raw HTML omitted --></p>
+
         
 
         
