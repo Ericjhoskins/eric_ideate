@@ -123,9 +123,9 @@
 	--color-2-dark                 : hsla(127, 8%, 14%, 1);
 	--color-2-darker               : hsla(127, 8%, 2%, 1);
 	
-	--color-3-light                : hsla(39, 93%, 100%, 1);
-	--color-3-dark                 : hsla(39, 93%, 85%, 1);
-	--color-3-darker               : hsla(39, 93%, 75%, 1);
+	--color-3-light                : #7dc18b;
+	--color-3-dark                 : #5f9469;
+	--color-3-darker               : #55816b;
 
   /* feedback colors
    * color-error(#ffd1d2), color-success(#c8e675), 
