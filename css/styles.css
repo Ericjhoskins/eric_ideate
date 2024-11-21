@@ -117,11 +117,11 @@
 	--color-1-darker               : #d15b6d;
 	--color-1-darkest              : #bf3c57;
 
-	--color-2-lightest             : hsla(127, 8%, 55%, 1);
-	--color-2-lighter              : hsla(127, 8%, 42%, 1);
-	--color-2-light                : hsla(127, 8%, 32%, 1);
-	--color-2-dark                 : hsla(127, 8%, 14%, 1);
-	--color-2-darker               : hsla(127, 8%, 2%, 1);
+	--color-2-lightest             : #93d2d5;
+	--color-2-lighter              : #6ca8b1;
+	--color-2-light                : #558c9b;
+	--color-2-dark                 : #3b858a;
+	--color-2-darker               : #256270;
 	
 	--color-3-light                : #7dc18b;
 	--color-3-dark                 : #5f9469;
